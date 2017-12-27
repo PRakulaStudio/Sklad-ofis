@@ -1,6 +1,0 @@
-<filesmatch ".(php|js)$">
-#Запрещаем доступ для всех, кроме указанных IP-адресов
-ErrorDocument 403 http://sklad-ofis.ru/
-Order deny,allow
-Deny from all
-</filesmatch>

@@ -5,20 +5,18 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--<base href="https://sklad-ofis.ru/"/>-->
-        <base href="https://sklad-ofis.ru"/>
+        <!--<base href="//sklad-ofis.ru/"/>-->
+        <base href="//sklad-ofis.ru"/>
 
         <!--[if IE]>
         <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
         <meta name='yandex-verification' content='5c6c68c67cb1b959'/>
-        <title>Аренда, Склад, 1000 кв. м, Кожуховская, ЮВАО Москва, Каширское шоссе, <?= getItemData('id'); ?>
-
-        </title>
+        <title><?= getItemData('title'); ?></title>
         <meta name="keywords"
-              content="Аренда, Склад, 1000 кв. м., ЮВАО Москва, метро Кожуховская, Каширское шоссе, парковка для легкового и грузового транспорта"/>
+              content="<?= getItemData('title'); ?>"/>
         <meta name="description"
-              content="Аренда, Склад, 1000 кв. м., ЮВАО Москва, метро Кожуховская, Каширское шоссе, парковка для легкового и грузового транспорта"/>
+              content="<?= getItemData('title'); ?>"/>
 
 
         <link rel="stylesheet" type="text/css" href="/assets/templates/v1.css"/>
@@ -625,19 +623,21 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "description": "Предлагаем в аренду открытую площадку 1000 кв.м. на огороженной охраняемой территории складского комплекса, ЮВАО Москвы, около ТТК.  •	возможно использовать под хранение: контейнеров, спецтехники, металла, ЖБИ (железобетонных конструкций), любой продукции, не требующей специального режима хранения,  •	электрические мощности 10 кВт,  •	с/у рядом на территории,  •	на территории есть складские и офисные помещения.  ",
+  "description": "<?= getItemData('short_description'); ?>",
   "name": "<?= getItemData('title'); ?>",
-  "image": "https://sklad-ofis.ru//assets/images/object/150823621703-02.jpg",
+  "image": "<?= getItemData('cover_image'); ?>",
   "offers": {
     "@type": "Offer",
     "availability": "https://schema.org/InStock",
     "price": "1800 руб. в год",
     "priceCurrency": "RUB"
   },
-  "url": "tovary/arenda-otkrytoj-ploshhadki-1000-kv.m.-yuvao-moskvy-okolo-ttk.html",
+  "url": "<?= getItemData('href'); ?>",
   "sku": "<?= getItemData('id'); ?>",
   "category": "аренда Склад"
 }
+
+
 
 
 
@@ -658,7 +658,7 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
                                         <ul>
 
                                             <?php $images = getItemData('images');
-                                            foreach ($images as $image) echo '<li><a href="#" title="'.getItemData('short_description').'"><img src="' . getImageThumb($image, 130, 98) . '" alt="[Alternative text]"/></a></li>';
+                                            foreach ($images as $image) echo '<li><a href="#" title="' . getItemData('short_description') . '"><img src="' . getImageThumb($image, 130, 98) . '" alt="[Alternative text]"/></a></li>';
                                             ?>
 
 
@@ -700,7 +700,7 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
 
                                         <a class='img'
                                            href="tovary/arenda-otkrytoj-ploshhadki-1000-kv.m.-yuvao-moskvy-okolo-ttk.html"><img
-                                                    src="https://sklad-ofis.ru/assets/images/watermark_cache/813bf119396fdd70af6128eb0ae7c7f6-191-135.jpg"></a>
+                                                    src="//sklad-ofis.ru/system/cache/thumb/assets/images/object/MTUwODIzNjIxNzAzLTAy.246x110.jpg"></a>
 
                                         <span class='z_id'><?= getItemData('id'); ?></span>
                                         <p>Район: <span class="bold green">ЮВАО Москва</span></p>

@@ -10,9 +10,9 @@
 .jspCorner{margin:0
 -3px 0 0}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0}html{height:100%}header,nav,section,article,aside,footer{display:block}@font-face{font-family:'cuprumbold';src:url('/assets/font/cuprum-bold-webfont.eot');src:url('/assets/font/cuprum-bold-webfont.eot?#iefix') format('embedded-opentype'),
 url('/assets/font/cuprum-bold-webfont.woff') format('woff'),
-url('/assets/font/cuprum-bold-webfont.ttf') format('truetype');font-weight:normal;font-style:normal}@font-face{font-family:'cuprumbold';src:url('https://sklad-ofis.ru/assets/font/cuprum-bold-webfont.eot');src:url('https://sklad-ofis.ru/assets/font/cuprum-bold-webfont.eot?#iefix') format('embedded-opentype'),
-url('https://sklad-ofis.ru/assets/font/cuprum-bold-webfont.woff') format('woff'),
-url('https://sklad-ofis.ru/assets/font/cuprum-bold-webfont.ttf') format('truetype');font-weight:normal;font-style:normal}@font-face{font-family:'cuprumbold_italic';src:url('/assets/font/cuprum-bolditalic-webfont.eot');src:url('/assets/font/cuprum-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+url('/assets/font/cuprum-bold-webfont.ttf') format('truetype');font-weight:normal;font-style:normal}@font-face{font-family:'cuprumbold';src:url('//sklad-ofis.ru/assets/font/cuprum-bold-webfont.eot');src:url('//sklad-ofis.ru/assets/font/cuprum-bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('//sklad-ofis.ru/assets/font/cuprum-bold-webfont.woff') format('woff'),
+url('//sklad-ofis.ru/assets/font/cuprum-bold-webfont.ttf') format('truetype');font-weight:normal;font-style:normal}@font-face{font-family:'cuprumbold_italic';src:url('/assets/font/cuprum-bolditalic-webfont.eot');src:url('/assets/font/cuprum-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
 url('/assets/font/cuprum-bolditalic-webfont.woff') format('woff'),
 url('/assets/font/cuprum-bolditalic-webfont.ttf') format('truetype');font-weight:normal;font-style:normal}@font-face{font-family:'cuprumitalic';src:url('/assets/font/cuprum-italic-webfont.eot');src:url('/assets/font/cuprum-italic-webfont.eot?#iefix') format('embedded-opentype'),
 url('/assets/font/cuprum-italic-webfont.woff') format('woff'),

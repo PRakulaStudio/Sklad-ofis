@@ -185,10 +185,10 @@ header, nav, section, article, aside, footer {
 }
 @font-face {
     font-family: 'cuprumbold';
-    src: url('https://sklad-ofis.ru/assets/font/cuprum-bold-webfont.eot');
-    src: url('https://sklad-ofis.ru/assets/font/cuprum-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://sklad-ofis.ru/assets/font/cuprum-bold-webfont.woff') format('woff'),
-         url('https://sklad-ofis.ru/assets/font/cuprum-bold-webfont.ttf') format('truetype');
+    src: url('//sklad-ofis.ru/assets/font/cuprum-bold-webfont.eot');
+    src: url('//sklad-ofis.ru/assets/font/cuprum-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('//sklad-ofis.ru/assets/font/cuprum-bold-webfont.woff') format('woff'),
+         url('//sklad-ofis.ru/assets/font/cuprum-bold-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
