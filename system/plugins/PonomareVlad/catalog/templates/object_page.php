@@ -44,6 +44,8 @@
                 margin-top: 30px;
             }
         </style>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+
     </head>
 
     <body class="bg_in">
@@ -506,7 +508,7 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
                     </script>
 
 
-                    <form method='post' class="form-sysm">
+                    <form method='post' id="product-form" class="form-sysm">
                         <div class='close'>x</div>
                         <input type='hidden' name='id' value='<?= getItemData('id'); ?>'/>
 
@@ -544,12 +546,7 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
                             </tr>
                             <tr>
                                 <td class="name"></td>
-                                <td class="data"><img src="captcha.php" alt="captcha"></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td class="name">Защитный код:</td>
-                                <td class="data"><input type="text" id="fb-kapcha" name="fb-kapcha" size="25"></td>
+                                <td class="data"><div class="g-recaptcha" data-sitekey="6LdF9kgUAAAAAO3FeVX4ySbioN1Zxpyy6PL2_A7L"></div></td>
                                 <td></td>
                             </tr>
                             <tr>
@@ -1026,6 +1023,7 @@ display:block;" class='email'>arenda@sklad-ofis.ru</span></p>
             });
         });
     </script>
+    <script src="/system/plugins/secargonia/feedback/web/js/feedback.js?v=0.2.7"></script>
     </body>
     </html>
 <?php endif; ?>
