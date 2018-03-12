@@ -5,7 +5,7 @@
  * may not operate correctly without them.
  */
 .product-callback-form-title {
-	font-family: 'cuprumbold';
+	font-family: 'cuprumbold',sans-serif;
 	color: #7ac11a;
 	font-size: 18px;
 	text-transform: uppercase;
@@ -37,7 +37,7 @@
 	right: 0;
 	width: 16px;
 	height: 100%;
-	background: rgba(209, 31, 0, 0.56);red;
+	background: rgba(209, 31, 0, 0.56);//red;
 	border-radius:10px;
 		overflow:hidden;
 }
@@ -71,13 +71,13 @@
 
 .jspTrack
 {
-	background: rgba(0, 0, 0, 0.5); #dde;
+	background: rgba(0, 0, 0, 0.5);// #dde;
 	position: relative;
 }
 
 .jspDrag
 {
-	background: rgba(255,255,255,0.8);#bbd;
+	background: rgba(255,255,255,0.8);//#bbd;
 	border-radius:10px;
 	position: relative;
 	top: 0;
@@ -288,7 +288,7 @@ overflow:hidden;
 .absolute_block>a{
 	line-height: 28px;
   font-size: 18px;
-  font-family: 'cuprumbold';
+  font-family: 'cuprumbold',sans-serif;
 }
 .absolute_block>.distr,
 .absolute_block>.towns{
@@ -306,7 +306,7 @@ overflow:hidden;
 	height: 89px;
 	}
 	.logo{
-		font-family: 'cuprumregular';
+		font-family: 'cuprumregular',sans-serif;
 		background:url(images/logo.png) no-repeat scroll left bottom;
 		width:130px;
 		height:42px;
@@ -321,7 +321,7 @@ overflow:hidden;
 		}
 	ul.top_nav{
 		width: 575px;
-		font-family: 'cuprumbold';
+		font-family: 'cuprumbold',sans-serif;
 		font-size:14px;
 		text-transform:uppercase;
 		float:left;
@@ -376,7 +376,7 @@ overflow:hidden;
 				height:30px;
 				border:none;
 				cursor:pointer;
-				height:30px;
+				/*height:30px;*/
 			  	overflow: hidden;
 				padding: 0;
 				position: absolute;
@@ -439,7 +439,7 @@ height:140px;
 width:1024px;
 	position:relative;
 	}
-	.slaid img{width:100%;-vertical-align:middle;-margin-top:-300px
+	.slaid img{width:100%;vertical-align:middle;margin-top:-300px
 		}
 	.slaid .lft{
 		text-shadow: 0 0 30px #555;
@@ -452,19 +452,19 @@ width:1024px;
 	display: block;
 		}
 		.slaid .lft span{
-			font-family: 'casperbold';
+			font-family: 'casperbold',sans-serif;
 			font-size:28px;
 			text-transform:uppercase;
 			display: block;
 			}
 		.slaid .lft i{
 			font-size:30px;
-			font-family: 'casperitalic';
+			font-family: 'casperitalic',sans-serif;
 			font-style:normal;
 			text-transform:none;
 			}
 	.slaid .more{-text-shadow: 0 0 3px #555;, 0 0 10px black;
-		font-family: 'cuprumregular';
+		font-family: 'cuprumregular',sans-serif;
 		position:absolute;
 		right:77px;
 		top:88px;
@@ -526,7 +526,7 @@ width:1024px;
 		width:191px;
 		}
 		.left_main .title2{
-			font-family: 'cuprumbold';
+			font-family: 'cuprumbold',sans-serif;
 			color:#333745;
 			font-size:18px;
 			margin-bottom:9px;
@@ -551,7 +551,7 @@ width:1024px;
 	.center_in {margin:0 25px; width:572px; /*float:left*/float:right}
 
 
-	.center_main fieldset {font-family: 'cuprumbold';
+	.center_main fieldset {font-family: 'cuprumbold',sans-serif;
 font-size: 18px;
 color: #535353; margin-top:5px; }
 .center_main .rayon .cusel { width:85px !important}
@@ -570,7 +570,7 @@ color: #535353; margin-top:5px; }
 		/* overflow:hidden; */
 		}
 		.right_main .title{
-			font-family: 'cuprumbold';
+			font-family: 'cuprumbold',sans-serif;
 			color:#333745;
 			font-size:18px;
 			margin-bottom:9px;
@@ -586,7 +586,7 @@ color: #535353; margin-top:5px; }
 			width:180px;
 				/*position:relative;*/
 				z-index:1;
-				font-family: 'cuprumbold';
+				font-family: 'cuprumbold',sans-serif;
 				padding:13px 15px 6px 15px;
 				border-bottom:1px solid #ffc291;
 				-webkit-box-shadow: #d66000 0px 1px 0px;
@@ -713,7 +713,7 @@ color: #535353; margin-top:5px; }
 						margin:0 0 0 3px;
 						}
 				.reset_bt{
-					font-family: 'cuprumregular';
+					font-family: 'cuprumregular',sans-serif;
 					cursor:pointer;
 					display:block;
 					float:left;
@@ -742,7 +742,7 @@ color: #535353; margin-top:5px; }
 					input[type=button].reset{
 						cursor:pointer;
 						margin: 10px 38px;
-						font-family: 'cuprumregular';
+						font-family: 'cuprumregular',sans-serif;
 						color:#545454;
 						text-shadow:0 1px 0 #fff;
 						background:none;
@@ -752,7 +752,7 @@ color: #535353; margin-top:5px; }
 						line-height:16px;
 						}
 				.pickup_bt{
-					font-family: 'cuprumregular';
+					font-family: 'cuprumregular',sans-serif;
 					cursor:pointer;
 					display:block;
 					float:right;
@@ -1787,7 +1787,7 @@ div.spec_title h1{color:#7ac11a}
 					/* top:54px; */
 					}
 
-					.results .card_wrapper{height:295x; overflow:hidden}
+					.results .card_wrapper{height:295px; overflow:hidden}
 					/*ul.grbx li {height:300px}*/
 
 					ul.overview .eks, .results .eks  {left:auto;					margin-left:-19px;}

@@ -5451,7 +5451,9 @@ input.reset {
 }
 
 @media (max-width: 898px) {
-    .search-form
+    .search-form {
+        float: initial !important;
+    }
     .radiobt {
         display: inline-block
     }
@@ -5463,6 +5465,9 @@ input.reset {
 
     ul.grbx {
         margin-right: 0
+    }
+    .overview>li{
+        margin: 1rem auto !important;
     }
 }
 

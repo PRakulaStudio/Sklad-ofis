@@ -985,7 +985,7 @@ display:block;" class='email'>arenda@sklad-ofis.ru</span></p>
     <!-- #footer -->
 
 
-    <script type="text/javascript" src="/assets/templates/v2.js"></script>
+    <script type="text/javascript" src="/assets/templates/v2.js?v=0.1"></script>
 
     <!-- Add fancyBox -->
     <link rel="stylesheet" href="/assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen"/>
