@@ -16,6 +16,11 @@
         <meta name="keywords" content="<?= getData('meta_keywords'); ?>"/>
         <meta name="description" content="<?= getData('meta_description'); ?>"/>
         <link rel="stylesheet" href="/assets/style.css" type="text/css" media="screen"/>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="/assets/search_new.css" type="text/css" media="screen"/>
+
         <script type="text/javascript" src="/assets/js/jquery-1.6.1.js"></script>
         <script type="text/javascript" src="/assets/js/jScrollPane.js"></script>
         <script type="text/javascript" src="/assets/js/slides.min.jquery.js"></script>
@@ -177,6 +182,73 @@
 
 
             <div class="wrap">
+
+                <noindex>
+                    <div class="podbor_more_wrapper" id="search-api">
+                        <form action="tovars/" method="POST">
+                            <div class="search-container">
+                                <div class="search-row-first">
+                                    <div class="objava-type-select">
+                                        <select class="sel" name="type">
+                                            <option value="">Тип объявления</option>
+                                            <option>Аренда</option>
+                                            <option>Продажа</option>
+                                            <option>Ответственное хранение</option>
+                                        </select>
+                                    </div>
+                                    <div class="search-field">
+                                        <input name="message" type="text" placeholder="Поиск по объявлениям" value="">
+                                    </div>
+                                    <div class="city-select">
+                                        <select class="sel" name="city">
+                                            <option value="">Город</option>
+                                            <option>Москва</option>
+                                            <option>Московская область</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="search-row-second">
+                                    <div class="object-type">
+                                        <select class="sel" name="object">
+                                            <option value="">Вид объекта</option>
+                                            <option>Холодный склад</option>
+                                            <option>Фармацевтический склад</option>
+                                            <option>Помещение свободного назначения</option>
+                                            <option>Производство</option>
+                                            <option>Торговое помещение</option>
+                                        </select>
+                                    </div>
+                                    <div class="space-container">
+                                        <div class="input">
+                                            <label>Площадь от</label>
+                                            <input name="square_from" placeholder="кв. м" type="text" value=""/>
+                                        </div>
+
+                                        <div class="input">
+                                            <label>до</label>
+                                            <input name="square_to" placeholder="кв. м" type="text" value=""/>
+                                        </div>
+                                    </div>
+                                    <div class="submit">
+                                        <input type="submit" value="Найти"/>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>
+                        <script>
+                            $(document).ready(function() {
+                                $('.sel').select2();
+
+                                $(window).resize(function () {
+                                    $('.sel').select2();
+                                });
+                            });
+                        </script>
+                    </div>
+                    <!-- podbor_more -->
+
+                </noindex>
 
                 <div class="so_ufu_section_cont">
                     <?= getData('childSections', 'catalog_sections_item') ?></div>
@@ -362,7 +434,7 @@
         });
     </script>
     <script src="/assets/js/akula.js"></script>
-
+    <script src="/assets/js/search_api.js"></script>
     <script>
         if (!window.pms) window.pms = {};
         if (!window.pms.plugin) window.pms.plugin = {};
