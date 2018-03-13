@@ -19,16 +19,13 @@
     <header id="header">
         <div class="wrap">
             <div class="head_right">
-                <div data-global-container="var_phone"
-                     style="width:100%;font-family:Verdana, Geneva, sans-serif;font-size:21px;color:#ff9138;margin:5px 0;display:block;"><a href="tel:+74952262215" class="phone">+7 (495) 226-22-15</a></div>
-                <form id="poisk" action="find.html" method="post" style="width: initial;">
+                <div data-global-container="var_phone" style="width:100%;font-family:Verdana, Geneva, sans-serif;font-size:21px;color:#ff9138;margin:5px 0;display:block;"></div>
+                <form id="poisk" method="post" style="width: initial;">
                     <input type="text" name="search" placeholder="Номер объекта или фраза">
                     <input class="search" type="submit" value="Найти!">
                 </form>
             </div>
-            <div data-global-container="array_catalogies" class="absolute_block"><a href="/city/" class="shoce towns"><span>Поиск по городам МО</span></a><a href="/highways/" class="shoce"><span>Поиск по шоссе</span></a><a href="/region/" class="distr"><span>Поиск по району</span></a>
-
-            </div>
+            <div data-global-container="array_catalogies" class="absolute_block"></div>
             <div id='blok_logo' style="float: left; width: 230px; height: 85px;">
                 <a class="logo" href="/"></a>
             </div>
@@ -36,23 +33,15 @@
             <!--topmenu-->
             <nav>
                 <ul id="ajaxmenu" class="top_nav">
-                    <ul data-global-container="array_menu" class="box"><li><a href="/">Главная<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/ostavit_zayavku/">Оставить заявку<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/kontakti.html">Контакты<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/vakansii.html">Вакансии<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/tovars/">Объекты<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/stati/">Статьи<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/build-to-suit.html">BTS<span class="tab-l"></span><span class="tab-r"></span></a></li>
-
-                    </ul>
-
+                    <ul data-global-container="array_menu" class="box"></ul>
                 </ul>
             </nav>
             <button class="hamburger mobile">&#9776;</button>
             <button class="cross mobile">&#735;</button>
             <div class="mobile_menu mobile">
                 <ul>
-                    <ul data-global-container="array_menu" class="box"><li><a href="/">Главная<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/ostavit_zayavku/">Оставить заявку<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/kontakti.html">Контакты<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/vakansii.html">Вакансии<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/tovars/">Объекты<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/stati/">Статьи<span class="tab-l"></span><span class="tab-r"></span></a></li><li><a href="/build-to-suit.html">BTS<span class="tab-l"></span><span class="tab-r"></span></a></li>
-
-                    </ul>
-
-                    <div data-global-container="array_catalogies" class="box"><a href="/city/" class="shoce towns"><span>Поиск по городам МО</span></a><a href="/highways/" class="shoce"><span>Поиск по шоссе</span></a><a href="/region/" class="distr"><span>Поиск по району</span></a>
-
-                    </div>
+                    <ul data-global-container="array_menu" class="box"></ul>
+                    <div data-global-container="array_catalogies" class="box"></div>
                 </ul>
             </div>
 
@@ -107,7 +96,7 @@
                             <td colspan="2">
                                 <div class="policy">
                                     <input type="checkbox" name="policy" value="1" class="required" checked="">
-                                    <span>Принимаю <a href="politika-konfidencialnosti.html" target="_blank">политику конфиденциальности</a></span>
+                                    <span>Принимаю <a href="/politika-konfidencialnosti.html" target="_blank">политику конфиденциальности</a></span>
                                 </div>
                             </td>
                         </tr>
@@ -125,6 +114,7 @@
 
 
         </div>
+
     </header><!-- #header-->
 
     <div id="content">
@@ -132,16 +122,10 @@
             <div class="wrap link__head">
                 <nav>
                     <div style="float:left; margin-right:40px; margin-left:230px;">
-                        <ul data-global-container="array_catalog-selection" data-limit="5" class='box'
-                            style='height:102px;'><li><a href="/arenda-sklada/kupit-sklad.html">Купить склад</a></li><li><a href="/prodazha-kommercheskoj-nedvizhimosti.html">Продажа склада</a></li><li><a href="/arenda-sklada/otvetstvennoe-hranenie.html">Склады ответственного хранения</a></li><li><a href="/arenda-sklada-v-moskve/">Склад в Москве</a></li><li><a href="/sklady-v-moskovskoj-oblasti.html">Склад в Московской области</a></li>
-
-                        </ul>
+                        <ul data-global-container="array_catalog-selection" data-limit="5" class='box' style='height:102px;'></ul>
                     </div>
                     <div style="float:left; margin-right:40px">
-                        <ul data-global-container="array_catalog-selection" data-limit="5" data-offset="5" class='box'
-                            style='height:102px;'><li><a href="/arenda-sklada/arenda-sklada-ot-sobstvennika.html">Склад от собственника</a></li><li><a href="/arenda-sklada/teplyi-sklad.html">Теплый склад</a></li><li><a href="/arenda-sklada/holodnyi-sklad.html">Холодный склад</a></li><li><a href="/arenda-sklada/sklad-do-1000m.html">Склад до 1000м.</a></li><li><a href="/arenda-sklada/farmacevticheskij-sklad.html">Фармацевтический склад</a></li>
-
-                        </ul>
+                        <ul data-global-container="array_catalog-selection" data-limit="5" data-offset="5" class='box' style='height:102px;'></ul>
                     </div>
                 </nav>
                 <br class='clear'/>
@@ -761,18 +745,12 @@
                             <span class="typemap active" style="display: none;">Карта Москвы</span>
                         </div>
                         <div class="or right">
-                            <a href="add/" class="add"><span>Добавить объект</span></a>
-                            <a href="ostavit_zayavku/" class="order"><span>Оставить заявку</span></a>
+                            <a href="/add/" class="add"><span>Добавить объект</span></a>
+                            <a href="/ostavit_zayavku/" class="order"><span>Оставить заявку</span></a>
                         </div>
                         <p class="h2"><span class="zaglushka-text"></span>ПОСЛЕДНИЕ ДОБАВЛЕННЫЕ ОБЪЕКТЫ</p>
                         <div class="viewport">
-
-                            <ul data-container="plugin_catalog" class="overview" style="">
-                                <?= execPlugin('PonomareVlad/catalog', 'category', ['limit' => 20, 'img_size' => ['300']], 'index_widget'); ?>
-
-
-                            </ul>
-
+                            <ul data-container="plugin_catalog" class="overview" style=""></ul>
                         </div>
 
                     </div>
@@ -805,10 +783,8 @@
                             behavior: url(/assets/PIE.htc);
                         }
                     </style>
-                    <p class="h2" style="text-align: center; padding: 18px 0 0 0;"><a class="btn-allobj"
-                                                                                      href="/arenda-sklada/"
-                                                                                      title="Посмотреть все объекты">Посмотреть
-                        все объекты</a></p>
+                    <p class="h2" style="text-align: center; padding: 18px 0 0 0;">
+                        <a class="btn-allobj" href="/arenda-sklada/" title="Посмотреть все объекты">Посмотреть все объекты</a></p>
                     <div class="clear"></div>
                 </div>
                 <div class="clear"></div>
@@ -830,26 +806,19 @@
                                     ТТК
                                 </div>
 
-                                <a href="tovary/arenda-otkrytoj-ploshhadki-1000-kv.m.-yuvao-moskvy-okolo-ttk.html">
-                                    <img alt=""
-                                         src="https://sklad-ofis.ru/assets/images/watermark_cache/813bf119396fdd70af6128eb0ae7c7f6-246-110.jpg">
+                                <a href="/tovary/arenda-otkrytoj-ploshhadki-1000-kv.m.-yuvao-moskvy-okolo-ttk.html">
+                                    <img alt="" src="https://sklad-ofis.ru/assets/images/watermark_cache/813bf119396fdd70af6128eb0ae7c7f6-246-110.jpg">
                                 </a>
 
                                 <span class='z_id'>2519</span>
-                                <p data-container="var_adress">
-                                    Район: <span class='bold'>ЮВАО Москва</span>
-                                </p>
-                                <p data-container="var_cost">
-                                    Цена за метр в, руб.: <span class='bold'>1800 в г.</span>
-                                </p>
-                                <p data-container="var_square" class="p--last-value">
-                                    Общая площадь: <span class='bold'>1000 кв. м</span>
-                                </p>
+                                <p data-container="var_adress"></p>
+                                <p data-container="var_cost"></p>
+                                <p data-container="var_square" class="p--last-value"></p>
                             </div>
-                            <a href="ostavit_zayavku/" class="zajavka">
+                            <a href="/ostavit_zayavku/" class="zajavka">
                                 Оставить заявку
                             </a>
-                            <a href="tovary/arenda-otkrytoj-ploshhadki-1000-kv.m.-yuvao-moskvy-okolo-ttk.html"
+                            <a href="/tovary/arenda-otkrytoj-ploshhadki-1000-kv.m.-yuvao-moskvy-okolo-ttk.html"
                                class="more">
                                 Подробнее>>
                             </a>
@@ -878,9 +847,7 @@
                 </div>
             </div>
 
-            <article data-container="html_description" class="main"><h1>Аренда склада</h1><p><strong>Аренда склада</strong> ответственное дело, требующее тщательного подхода. Арендатору необходимо продумать и предусмотреть не только месторасположение и размеры склада, но и наличие подъездных путей к складскому помещению, систему отопления и наличие складского оборудования.</p><p>Основное направление компании "Складов" - помощь в подборе складов, офисов, складских и офисных помещений предлагаемых в аренду. На сайте "Складов", представлена самая большая база помещений, находящихся в разных регионах города и Московской области. Благодаря, удобному фильтру, Вы сможете подобрать оптимальный вариант под необходимые Вам требования и критерии: расположение вблизи метро или шоссе, район Москвы, город в области, площадь складского или офисного объекта, класс, категория, стоимость аренды.</p><blockquote><strong>Памятка для арендаторов складов</strong><br> При выборе склада стоит помнить, что они делятся на категории: А, B,C, Д.<ul><li>К категории А относятся склады, в которых можно хранить продукцию любых типов. В них поддерживается особый температурный режим и необходимая влажность.</li><li>Категория В подойдёт тем, кто хочет приобрести склад хорошего качества по приемлемой стоимости.</li><li>Склады категории С предназначаются для продукции, не требующей определённых климатических условий.</li><li>Склады и складские помещения категории Д – это не отапливаемые помещения, располагающиеся в технических зданиях.</li></ul></blockquote><h2>Преимущества аренды склада</h2><p>К основным преимуществам аренды склада, складских помещений и офисов стоит отнести:</p><ul><li>возможность моментального использования склада для своих нужд, после заключения договора аренды;</li><li>экономию средств на покупку складского оборудования;</li><li>возможность сменить склад или офис, если вас перестанет устраивать его расположение.</li></ul><h3>Преимущества аренды офиса у компании "Складов"</h3><p>Если вы собираетесь арендовать офис, то у вас будет иметься возможность выбрать помещение с хорошим и капитальным ремонтом и всем необходимым офисным оборудованием. Также среди выгодных предложений нашей компании, можно найти и офис с мебелью.</p><p>На каком бы варианте вы не остановили свой выбор, вы будете удивлены большим выбором складов, офисов и складских помещений, приемлемыми ценами и выгодными условиями аренды, при сотрудничестве с нашей компанией.</p>
-
-            </article>
+            <article data-container="html_description" class="main"></article>
 
 
         </div>
@@ -904,10 +871,10 @@
         </div>
         <a href="https://metrika.yandex.ru/stat/?id=29424345&amp;from=informer"
            target="_blank" rel="nofollow"><img
-                src="https://informer.yandex.ru/informer/29424345/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
-                style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
-                title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"
-                onclick="try{Ya.Metrika.informer({i:this,id:29424345,lang:'ru'});return false}catch(e){}"/></a>
+                    src="https://informer.yandex.ru/informer/29424345/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+                    style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
+                    title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"
+                    onclick="try{Ya.Metrika.informer({i:this,id:29424345,lang:'ru'});return false}catch(e){}"/></a>
         <!-- /Yandex.Metrika informer -->
 
         <!-- Yandex.Metrika counter -->
@@ -972,11 +939,11 @@
     <div style="padding: 44px 0 10px 0; text-align: center;background: #fff;">
         © 2008-2017 Все права защищены. <br/>
         <b>Аренда склада</b>
-        от sklad-ofis.ru — склады в аренду на востоке Москвы, <a href='arenda-sklada-v-moskve/'>аренда склада в
-        Москве</a><!--
+        от sklad-ofis.ru — склады в аренду на востоке Москвы, <a href='/arenda-sklada-v-moskve/'>аренда склада в
+            Москве</a><!--
 -->
 
-        <p><a href="karta-sajta.html" title="Карта сайта">Карта сайта</a></p>
+        <p><a href="/karta-sajta.html" title="Карта сайта">Карта сайта</a></p>
     </div>
 </footer>
 <script type="text/javascript" src="/assets/templates/v1.js" async></script>
