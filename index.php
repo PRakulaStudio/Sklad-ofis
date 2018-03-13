@@ -768,7 +768,7 @@
                         <div class="viewport">
 
                             <ul data-container="plugin_catalog" class="overview" style="">
-                                <?= execPlugin('PonomareVlad/catalog', 'category', ['limit' => 20, 'img_size' => ['300']], 'index_widget'); ?>
+                                <?= execPlugin('PonomareVlad/catalog', 'category', ['limit' => 20, '_img_size' => ['300']], 'index_widget'); ?>
 
 
                             </ul>
