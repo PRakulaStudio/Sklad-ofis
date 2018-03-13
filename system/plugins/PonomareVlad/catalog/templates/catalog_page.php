@@ -333,6 +333,9 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
 
             <div class="wrap">
 
+                <div class="so_ufu_section_cont">
+                    <?= getData('childSections', 'catalog_sections_item') ?></div>
+
 
                 <div class="result_nav">
                     <div class="left">
@@ -512,6 +515,14 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
                 $(".hamburger").show();
             });
         });
+    </script>
+
+    <script>
+        if (!window.pms) window.pms = {};
+        if (!window.pms.plugin) window.pms.plugin = {};
+        if (!window.pms.plugin.catalog) window.pms.plugin.catalog = {};
+        window.pms.plugin.catalog.itemsData = <?=getData(false, false, false, true);?>;
+        console.debug(window.pms.plugin.catalog.itemsData);
     </script>
     </body>
     </html>
