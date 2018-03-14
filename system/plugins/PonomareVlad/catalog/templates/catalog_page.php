@@ -26,7 +26,7 @@
         <script type="text/javascript" src="/assets/js/slides.min.jquery.js"></script>
         <!-- слайдер вверху -->
         <script type="text/javascript" src="/assets/js/jquery.tinycarousel.min.js"></script>    <!-- слайдер внизу -->
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
         <script type="text/javascript" src="/assets/js/jquery-ui_slider.js"></script>
         <!-- -->
         <!-- радиокнопки скрипт-->
