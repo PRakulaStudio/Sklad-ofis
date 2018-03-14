@@ -20,8 +20,10 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 
         <link rel="stylesheet" href="/assets/search_new.css" type="text/css" media="screen"/>
-
-        <script type="text/javascript" src="/assets/js/jquery-1.6.1.js"></script>
+        <script
+                src="https://code.jquery.com/jquery-1.8.3.min.js"
+                integrity="sha256-YcbK69I5IXQftf/mYD8WY0/KmEDCv1asggHpJk1trM8="
+                crossorigin="anonymous"></script>
         <script type="text/javascript" src="/assets/js/jScrollPane.js"></script>
         <script type="text/javascript" src="/assets/js/slides.min.jquery.js"></script>
         <!-- слайдер вверху -->
