@@ -187,7 +187,7 @@
 
                 <noindex>
                     <div class="podbor_more_wrapper" id="search-api">
-                        <form action="tovars/" method="POST">
+
                             <div class="search-container">
                                 <div class="search-row-first">
                                     <div class="objava-type-select">
@@ -232,12 +232,12 @@
                                         </div>
                                     </div>
                                     <div class="submit">
-                                        <input type="submit" value="Найти"/>
+                                        <input class="search-button" type="button" value="Найти"/>
                                     </div>
 
                                 </div>
                             </div>
-                        </form>
+
                         <script>
                             $(document).ready(function() {
                                 $('.sel').select2();
