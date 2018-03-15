@@ -92,12 +92,12 @@ catch(e){}});$(window).scroll();$('.result_nav .right a').click(function(){if(th
 $('.podbor_more_wrapper .order').val(0);else
 $('.podbor_more_wrapper .order').val(this.id);$('.podbor_more_wrapper form').submit()});$('.pages a').click(function(){if($(this).attr('href')!='#')return;if(typeof page_get=='undefined')
 {$('.podbor_more_wrapper .page').val($(this).text());$('.podbor_more_wrapper form').submit()
-return false;}});$('input, select, textarea',$('.podbor_more_wrapper')).change(function(){$('.podbor_more_wrapper .page').val(0);});$('.zajavka').click(function(){if($(this).siblings('.img').find('img').length)
+return false;}});$('input, select, textarea',$('.podbor_more_wrapper')).change(function(){$('.podbor_more_wrapper .page').val(0);});/*$('.zajavka').click(function(){if($(this).siblings('.img').find('img').length)
 var img=$(this).siblings('.img').find('img').attr('src');else
 var img=$(this).parents('li').first().find('img').attr('src')
 if($(this).parents('li').first().find('.z_id').text())
 show_z($(this).parents('li').first().find('.z_id').text(),$(this).parents('li').first().find('.title').text(),img)
-return false;});$('.zaya .close').click(function(){$('.zaya').hide()})
+return false;});*/$('.zaya .close').click(function(){$('.zaya').hide()})
 $('.zaya form').submit(function(){$.ajax({type:'POST',url:"/mail.php",data:{name:$('.zaya form [name=fb-name]').val(),email:$('.zaya form [name=fb-mail]').val(),phone:$('.zaya form [name=fb-phone]').val(),message:$('.zaya form [name=fb-message]').val(),id:$('.zaya form [name=id]').val(),link:links[$('.zaya form [name=id]').val()],nomer:nomer[$('.zaya form [name=id]').val()],captcha:$('.zaya form [name=fb-kapcha]').val(),policy:$('.zaya form [name=policy]:checked').length}}).done(function(msg){if(msg==1)
 {alert("Ваше сообщение отправлено");$('.zaya').fadeOut();$('.zaya .data img').attr('src','/captcha.php?rand='+Math.random());}
 else if(msg==0)
@@ -143,9 +143,9 @@ $('.podbor_more .rayon select').val('')}});$('.podbor_more  .rayon .x').live('cl
 {$('.check',this).each(function(){if(typeof $(this).data=='function')$(this).data('jsp').reinitialise()})})})});$('.podbor [type=reset], .podbor_more [type=reset]').click(function(){radio_enable();$('.rayon span.x',this.form).click();$('.ot,.do',this.form).val('');$('[type=text]',this.form).val('');$(':checked',this.form).removeAttr('checked');$('.check  label:first-child input').change();$('.rayon_f span.x').click();$('.shosse_f span.x').click();$('.shosse span.x').click();$('.metro_f span.x').click();$('.all_shose').removeClass('all_shose_act');$('input[type=radio]',this.form).removeAttr('checked');$(".niceRadio",this.form).removeClass('radioChecked');$(".cusel",this.form).each(function(){$('.cuselText',this).text($('.cusel-scroll-pane span',this).first().text());})})
 $('.tovar_page ul.nedavno li .title, ul.spec.nedavno li .title, #_main .left_main ul.nedavno li .title, #slider1 .overview li .title, ul.grbx li .title').ellipsis()
 $('#jqsp-show').click(function(){$(this).next().slideToggle()})
-$('.zajavka').click(function(){yaCounter21711481.reachGoal('ostavitzayavku');})
+/*$('.zajavka').click(function(){yaCounter21711481.reachGoal('ostavitzayavku');})*/
 $('.zajavka2').click(function(){yaCounter21711481.reachGoal('ostavitzayavku-karta');})
-$('.zaya #submit').click(function(){yaCounter21711481.reachGoal('otpravka');})})
+/*$('.zaya #submit').click(function(){yaCounter21711481.reachGoal('otpravka');})})*/
 function init_scrolls()
 {if(!$('.podbor_more_wrapper .polosa.first').hasClass('minimal'))
 {$('.podbor_more_wrapper .polosa .check').jScrollPane({'verticalDragMinHeight':50,'verticalDragMaxHeight':50});}}

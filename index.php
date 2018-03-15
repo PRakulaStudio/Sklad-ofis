@@ -46,18 +46,15 @@
             </div>
 
             <div class='zaya'>
-                <form method='post' class="form-sysm">
+                <form method='post' id="product-form" class="form-sysm">
                     <div class='close'>x</div>
-                    <input type='hidden' name='id' value='1'/>
-
-
+                    <input type="hidden" name="id" value="0">
                     <input type="hidden" name="fb-id" value="1821">
                     <input type="hidden" name="fb-vidoperacii_name" value="Аренда">
                     <input type="hidden" name="fb-rayon_name" value="МО Северо-восток">
                     <input type="hidden" name="fb-metro_name" value="Не выбрано">
                     <input type="hidden" name="fb-kmotmkad" value="15">
                     <input type="hidden" name="fb-cena" value="140">
-
                     <table>
                         <tbody>
                         <tr>
@@ -66,7 +63,8 @@
                         <tr>
                             <td class="name">Контактное лицо:</td>
                             <td class="data"><input type="text" id="fb-name" name="fb-name" size="25"></td>
-                            <td rowspan='3' class='img'><img src="" alt=""></td>
+                            <td rowspan='3' class='img'><img src="/assets/images/object/150823621703-02.jpg" alt="">
+                            </td>
                         </tr>
                         <tr>
                             <td class="name">Контактный e-mail:</td>
@@ -83,12 +81,7 @@
                         </tr>
                         <tr>
                             <td class="name"></td>
-                            <td class="data"><img src="captcha.php" alt="captcha"></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="name">Защитный код:</td>
-                            <td class="data"><input type="text" id="fb-kapcha" name="fb-kapcha" size="25"></td>
+                            <td class="data"><div class="g-recaptcha" data-sitekey="6LdF9kgUAAAAAO3FeVX4ySbioN1Zxpyy6PL2_A7L"></div></td>
                             <td></td>
                         </tr>
                         <tr>
@@ -96,19 +89,18 @@
                             <td colspan="2">
                                 <div class="policy">
                                     <input type="checkbox" name="policy" value="1" class="required" checked="">
-                                    <span>Принимаю <a href="/politika-konfidencialnosti.html" target="_blank">политику конфиденциальности</a></span>
+                                    <span>Принимаю <a href="politika-konfidencialnosti.html" target="_blank">политику конфиденциальности</a></span>
                                 </div>
                             </td>
                         </tr>
                         <tr>
                             <td class="name">&nbsp;</td>
-                            <td class="data"><input type="submit" id="submit" name="fm-submit" value="Отправить"></td>
+                            <td class="data"><input type="submit" id="submit" name="fm-submit" value="Отправить">
+                            </td>
                             <td></td>
                         </tr>
                         </tbody>
                     </table>
-
-
                 </form>
             </div> <!--Заявка-->
 
@@ -946,6 +938,11 @@
         <p><a href="/karta-sajta.html" title="Карта сайта">Карта сайта</a></p>
     </div>
 </footer>
+<script
+        src="https://code.jquery.com/jquery-1.8.3.min.js"
+        integrity="sha256-YcbK69I5IXQftf/mYD8WY0/KmEDCv1asggHpJk1trM8="
+        crossorigin="anonymous"></script>
+<script src="/system/plugins/secargonia/feedback/web/js/feedback.js?v=0.2.7"></script>
 <script type="text/javascript" src="/assets/templates/v1.js" async></script>
 </body>
 </html>
