@@ -176,8 +176,9 @@
                             ></div>
 
                             <a class="zajavka2 zajavka3"
-                               onclick="show_z(<?= getData('id'); ?>,'<?= getData('title'); ?>','/assets/images/object/150823621703-02.jpg');return false;"
-                               href="ostavit_zayavku/"><span>Оставить заявку</span></a>
+                               onclick="$('.zaya input[name=id]').val(<?= getData('id'); ?>); return false;"
+                               href="#"><span>Оставить заявку</span>
+                            </a>
                             <span class="h3">РАНЕЕ ПРОСМОТРЕННЫЕ ПРЕДЛОЖЕНИЯ</span>
                             <ul class="nedavno" sysm="vyvod_objekta_2">
                                 <li>
@@ -192,7 +193,7 @@
                                         <p>Район: <span class="bold green">ЮВАО Москва</span></p>
                                         <p>Цена за метр в, руб.: <span class="bold green">1800</span></p>
                                         <p>Общая площадь: <span class="bold green">1000 кв. м</span></p></div>
-                                    <a href="ostavit_zayavku/" class="zajavka">Оставить заявку</a><a
+                                    <a onclick="$('.zaya input[name=id]').val(<?= getData('id'); ?>); return false;" class="zajavka feedback_popup">Оставить заявку</a><a
                                             href="tovary/arenda-otkrytoj-ploshhadki-1000-kv.m.-yuvao-moskvy-okolo-ttk.html"
                                             class="more">Подробнее>></a>
                                     <div class="clear"></div>
@@ -512,6 +513,7 @@ display:block;" class='email'>arenda@sklad-ofis.ru</span></p>
             });
         });
     </script>
+    <script src="/system/plugins/secargonia/wishlist/web/js/wishlist.js?v=0.1"></script>
     <script src="/system/plugins/secargonia/feedback/web/js/feedback.js?v=0.2.7"></script>
     <script src="/assets/js/akula.js"></script>
     <script>console.debug(JSON.parse('<?=addslashes(getData(false, false, false, true));?>'));</script>

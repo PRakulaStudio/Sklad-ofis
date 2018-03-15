@@ -435,6 +435,7 @@
             });
         });
     </script>
+    <script src="/system/plugins/secargonia/feedback/web/js/feedback.js?v=0.2.7"></script>
     <script src="/assets/js/akula.js"></script>
     <script src="/assets/js/search_api.js"></script>
     <script>

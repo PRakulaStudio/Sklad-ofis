@@ -80,10 +80,11 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
                 <li><a href="/region/">Поиск по району</a></li>
             </ul>
         </div>
+
         <div class='zaya'>
-            <form method='post' class="form-sysm">
+            <form method='post' id="product-form" class="form-sysm">
                 <div class='close'>x</div>
-                <input type='hidden' name='id' value='1588'/>
+                <input type="hidden" name="id" value="0">
                 <input type="hidden" name="fb-id" value="1821">
                 <input type="hidden" name="fb-vidoperacii_name" value="Аренда">
                 <input type="hidden" name="fb-rayon_name" value="МО Северо-восток">
@@ -98,7 +99,8 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
                     <tr>
                         <td class="name">Контактное лицо:</td>
                         <td class="data"><input type="text" id="fb-name" name="fb-name" size="25"></td>
-                        <td rowspan='3' class='img'><img src="" alt=""></td>
+                        <td rowspan='3' class='img'><img src="/assets/images/object/150823621703-02.jpg" alt="">
+                        </td>
                     </tr>
                     <tr>
                         <td class="name">Контактный e-mail:</td>
@@ -115,12 +117,7 @@ display:block;"><a href="tel:+74952262215" style="color: #ff9138;text-decoration
                     </tr>
                     <tr>
                         <td class="name"></td>
-                        <td class="data"><img src="captcha.php" alt="captcha"></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td class="name">Защитный код:</td>
-                        <td class="data"><input type="text" id="fb-kapcha" name="fb-kapcha" size="25"></td>
+                        <td class="data"><div class="g-recaptcha" data-sitekey="6LdF9kgUAAAAAO3FeVX4ySbioN1Zxpyy6PL2_A7L"></div></td>
                         <td></td>
                     </tr>
                     <tr>
