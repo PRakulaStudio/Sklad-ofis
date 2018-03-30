@@ -11,6 +11,7 @@
 	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+
 </head>
 <body>
 
@@ -20,10 +21,10 @@
 	<div class="bid-form bg-white">
 		<a class="close-popup" href="#"><img src="img/icons/close.svg"></a>
 		<p>Оставить заявку</p>
-		<input type="text" placeholder="Контактное лицо">
-		<input type="email" placeholder="Контактный e-mail">
-		<input type="tel" placeholder="Контактный телефон">
-		<textarea placeholder="Текст сообщения"></textarea>
+		<input type="text" class="message-name" placeholder="Контактное лицо">
+		<input type="email" class="message-email" placeholder="Контактный e-mail">
+		<input type="tel" class="message-phone" placeholder="Контактный телефон">
+		<textarea class="message-message" placeholder="Текст сообщения"></textarea>
 
 		<div class="captcha">
 			<iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LdF9kgUAAAAAO3FeVX4ySbioN1Zxpyy6PL2_A7L&amp;co=aHR0cDovL3NrbGFkLW9maXMucnU6ODA.&amp;hl=ru&amp;v=v1520836262157&amp;size=normal&amp;cb=rauk9rks6wws" width="304" height="80" role="presentation" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
@@ -41,8 +42,8 @@
 	<div class="call-form bg-white">
 		<a class="close-popup" href="#"><img src="img/icons/close.svg"></a>
 		<p>Заказать звонок</p>
-		<input type="text" placeholder="Контактное лицо">
-		<input type="tel" placeholder="Контактный телефон">
+		<input type="text" class="message-name" placeholder="Контактное лицо">
+		<input type="tel" class="message-phone" placeholder="Контактный телефон">
 
 		<div class="captcha">
 			<iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LdF9kgUAAAAAO3FeVX4ySbioN1Zxpyy6PL2_A7L&amp;co=aHR0cDovL3NrbGFkLW9maXMucnU6ODA.&amp;hl=ru&amp;v=v1520836262157&amp;size=normal&amp;cb=rauk9rks6wws" width="304" height="80" role="presentation" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
@@ -337,8 +338,9 @@
 		</div>
 	</div>
 </footer>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <script type="text/javascript" src="js/swiper.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
-
+<script type="text/javascript" src="/system/plugins/secargonia/feedback/web/js/feedback.js"></script>
 </body>
 </html>
